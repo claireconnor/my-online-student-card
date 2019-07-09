@@ -1,0 +1,92 @@
+/* font-family: "Nanum Gothic", sans-serif;
+font-family: "Roboto", sans-serif;
+font-family: "Open Sans", sans-serif;
+font-family: "Montserrat", sans-serif; 
+font-family: 'Source Sans Pro', sans-serif; */
+
+
+header {
+  margin: 50px;
+  border-color: black
+}
+
+img {
+  border-radius: 50%;
+  margin: 20px;
+  border:solid 3px #5cc09f;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  vertical-align: center;
+  color: #5cc09f;
+  font-size: 40px;
+  margin-bottom; 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #5cc09f;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-radius: 25px;
+}
+
+h3 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: italic;
+}
+
+p {
+  border-radius: 50%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+section {
+  background-color: #ece9e5;
+  margin: 20px;
+  padding: 30px;
+  font-family: "Source Sans Pro", sans-serif;
+  border-radius: 30px;
+}
+
+.spaces {
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+@media screen and (min-width: 450px){
+ul {
+  font-family: "Source Sans Pro", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: auto;
+}}
+
+
+@media screen and (min-width: 450px) {
+#main_section {
+  display: flex;
+  flex-direction: row;
+}
+}
+
+
+footer {
+  margin: 50px;
+  text-align: center;
+  justify-items: space-between;
+}
+.fa-smile-beam {color: #5cc09f; size: 50px}
+.fa-heart {color: #5cc09f}
+.fa-stopwatch {color: #5cc09f}
+.fa-users {color: #5cc09f}
+.fa-book-open {color: #5cc09f}
+.fa-folder-open {color: #5cc09f}
+.fa-linkedin {color: #5cc09f}
+.fa-medium {color: #5cc09f; size: 50px}
